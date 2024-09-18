@@ -1,0 +1,12 @@
+key: 12345
+
+person:
+  name: John
+  age: 30
+  city: New York
+  items:
+    - item1
+    - item2: I'm item two
+
+scripts: >
+  echo "Hola"
