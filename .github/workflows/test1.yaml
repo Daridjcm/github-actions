@@ -22,3 +22,7 @@ jobs:
     steps:
       - name: LS
         run: ls -al
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4
+      - name: Check Node.js version
+        run: node --version
